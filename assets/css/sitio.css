@@ -244,3 +244,30 @@ header.solido{position:relative;background:var(--pizarron)}
 .pie span a{margin-left:0}
 @media (max-width:620px){.pie{flex-direction:column;align-items:flex-start}}
 .pie>a.logo{margin-left:0}
+
+/* ---------- Ajustes v7.1 (27 sep): hero sin encimarse, ritmo vertical más compacto ---------- */
+img{height:auto}
+.hero{min-height:max(600px,min(88vh,860px))}
+.hero-in{padding-top:136px}
+.hero h1{font-size:clamp(40px,5.4vw,84px)}
+.manif{padding:clamp(56px,6.5vw,96px) 0}
+.quienes{padding:clamp(56px,6.5vw,96px) 0}
+.tit{margin-bottom:40px}
+.cifras{padding-bottom:56px}
+.origen{padding:64px 0}
+.arch-hist{margin-top:56px}
+.inic{padding:clamp(56px,6.5vw,96px) 0}
+.sala{min-height:62vh}
+.estudio{padding:clamp(56px,6.5vw,90px) 0}
+.pubs-sec{padding:clamp(56px,6.5vw,90px) 0 32px}
+.sm{padding:clamp(48px,5.5vw,76px) 0}
+.noticias{padding:clamp(40px,4.5vw,64px) 0 clamp(48px,5.5vw,76px)}
+.noticias h2{margin-bottom:16px}
+.prensa li{padding:14px 0;gap:20px}
+.prensa b{font-size:clamp(19px,1.6vw,23px)}
+.aliados{padding:clamp(40px,5vw,64px) 0}
+.aliados p.lead{margin-bottom:14px}
+.nombres{font-size:clamp(21px,2.1vw,30px);line-height:1.35;max-width:44ch}
+.cierre{padding:clamp(56px,6.5vw,96px) 0}
+.p-cuerpo{padding:clamp(48px,6vw,88px) 0}
+.cta-banda{padding:clamp(44px,5.5vw,72px) 0}
